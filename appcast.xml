@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>SnapGo</title>
         <item>
+            <title>1.1.1</title>
+            <pubDate>Thu, 06 Aug 2026 22:12:31 +0800</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 更新内容
+
+- 新增简体中文、英文与跟随系统的应用语言设置，切换后立即生效。
+- 统一截图完成提示与主工具栏的玻璃材质、圆角、阴影和动画风格。
+- 优化中英文长文案在偏好设置、长截图和 GIF 界面中的布局适配。
+
+]]></description>
+            <enclosure url="https://github.com/HEXING19/SnapGo-releases/releases/download/v1.1.1/SnapGo-1.1.1.zip" length="2816183" type="application/octet-stream" sparkle:edSignature="hLy9qs3SKH/bkjnJ+tByKP64LcsVBXZQ2wYR/pZnJTkjAOM8EJM656LIIcxqkbY7gcSqdiqz4QfIY+SRJb6gCA=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Thu, 06 Aug 2026 11:57:48 +0800</pubDate>
             <link>https://github.com/HEXING19/SnapGo-releases</link>
@@ -52,6 +68,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Oo7u+P7MfcER8ApzK/ZOeIJOBXyR6Nspnj20sCKmVb1GIHKuYDHphhatq1G/PjCUJDhCjSHH1rBhJ2mV4iN2BA==
-length: 3510
+edSignature: u0rhpNqK4P+Lvhivons6cmvDxSpPd9fqA7EFu3dOYtVAHqhZdp4uEfMB/iUqq7+r+17mDxgpm+XGxXvDQg63BQ==
+length: 4566
 -->
