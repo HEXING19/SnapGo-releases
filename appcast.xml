@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>SnapGo</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Thu, 06 Aug 2026 11:57:48 +0800</pubDate>
+            <link>https://github.com/HEXING19/SnapGo-releases</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 更新内容
+
+- 新增区域 GIF 录制，支持 15/30/60 FPS、暂停与继续、循环预览。
+- 新增 GIF 画面缩放、播放倍速、复制到剪贴板和文件导出。
+- 修复切换缩放或倍速后立即复制、导出时可能复用旧配置的问题。
+- 优化偏好设置、录制浮层和结果页的原生视觉与交互一致性。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/SnapGo-releases/releases/download/v1.1.0/SnapGo-1.1.0.zip" length="2303986" type="application/octet-stream" sparkle:edSignature="rH7JhHye0D+7iO/qBBn2lkP0So/hREW8etYwg40roV+WhbZNxnkJh4dp/J73YKVZb98fsB4CUJGryIGZdqnNBg=="/>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Wed, 05 Aug 2026 22:11:53 +0800</pubDate>
             <link>https://github.com/HEXING19/SnapGo-releases</link>
@@ -35,6 +52,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: r+FzSBNOeTSHcBQdoNGF8BNMWAwYd/qVmhrR4YHd0K1Q2grYnFDgxnrd5pQTc1tf+eP6qfzlJeBYVfMIM7EpAA==
-length: 2323
+edSignature: Oo7u+P7MfcER8ApzK/ZOeIJOBXyR6Nspnj20sCKmVb1GIHKuYDHphhatq1G/PjCUJDhCjSHH1rBhJ2mV4iN2BA==
+length: 3510
 -->
