@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>SnapGo</title>
         <item>
+            <title>1.1.4</title>
+            <pubDate>Thu, 27 Aug 2026 19:39:10 +0800</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## 更新内容
+
+- 修复长截图完成提示的圆角与阴影轮廓，统一为完整胶囊形玻璃样式。
+- 重新设计文字输入体验：去除大块黑色输入框，改为紧贴内容的蓝色圆角编辑框，并提供左右与右下角拖拽控制。
+- 已完成的文字支持双击原位重新编辑，编辑时保留颜色、字体、字号和字重。
+- 默认文字大小调整为 18 pt，并随输入内容自动扩展。
+- 新截图默认回到第一个“选择”工具；仍可在偏好设置中主动开启“记住上次工具”。
+- 截图选区的四条边现在全段都可拖拽调整，不再局限于圆形控制点。
+- 发布包继续为 Universal 2，支持 Apple Silicon 与 Intel Mac。
+
+## 验证
+
+- 37 项自动化测试全部通过。
+- 深色与浅色文字输入、完成提示视觉导出检查通过。
+- Universal 2 架构与应用签名验证通过。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/SnapGo-releases/releases/download/v1.1.4/SnapGo-1.1.4.zip" length="3275902" type="application/octet-stream" sparkle:edSignature="+jrLgMhglq5ROuzM+p+/oim6dUCwyw8/Ggj6FR/teDdbz96O0jU55EQzTj5roo56qATygiLSQ7mUh61AXtrFAw=="/>
+        </item>
+        <item>
             <title>1.1.3</title>
             <pubDate>Wed, 26 Aug 2026 21:54:54 +0800</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -103,6 +127,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: FpV64fRp3nWJ5C5qNn2u0sq4Sn0lG8GMbBl98kCLPRF3zkv21uDQBI+YqHM1LrqkouoHOskcd0XBq1qDVqeLCw==
-length: 6911
+edSignature: BgKlPg073FOyN6o/nPKZOVgemfW5bBspsJku+J38eqZFvKID4aDh8Vp3VBe9O4q4nbOutgj46g8hPw/0PwsVCw==
+length: 8495
 -->
