@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>SnapGo</title>
         <item>
+            <title>1.1.8</title>
+            <pubDate>Thu, 10 Sep 2026 16:45:11 +0800</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# SnapGo 1.1.8
+
+- GIF 录制默认使用均衡模式：最长边 1600 px、15 FPS，从采集阶段减少像素量和处理时间。
+- GIF 编码合并重复画面并只写入变化区域，显著降低界面录制的文件体积。
+- 结果页显示实际文件体积与编码进度，缩放、倍速和帧率变化会生成对应的新缓存。
+- 修复“复制 GIF”误报编码失败的问题。32 MB 以内写入 GIF 数据和文件地址；更大的 GIF 会保留现有剪贴板并提示选择 75% 或 50% 缩放。
+- 导出 GIF 不受剪贴板大小限制，并继续支持 30/60 FPS 高体积选项。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/SnapGo-releases/releases/download/v1.1.8/SnapGo-1.1.8.zip" length="3309489" type="application/octet-stream" sparkle:edSignature="NXB4hj1pKS68G8wTUrIiJD495zoRC0KGuiY2vgbWS5yOKT5HH+/9B9DOhdSglwzjVEZYiqVu8fULLV8iG3mCBA=="/>
+        </item>
+        <item>
             <title>1.1.7</title>
             <pubDate>Thu, 10 Sep 2026 15:53:06 +0800</pubDate>
             <sparkle:version>11</sparkle:version>
@@ -169,6 +185,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: TmQBA2cBtdCbzLDxwczVBy5FOKhQQNxrjuUAf52/G0Y8c2RSLZXIGTyN1CARa9jc4qNe9/A9TkOQ1cXtAqrbDw==
-length: 10959
+edSignature: zqSam23k20B4hlx9R0DWbjE74qZOOD+seGZBgq9+v9nAKtXHDMKnhQJO0MLWh0g0cXJVHoNo/8kZkkJJbM+mBA==
+length: 12256
 -->
