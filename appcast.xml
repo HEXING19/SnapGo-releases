@@ -6,6 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>SnapGo</title>
         <item>
+            <title>1.1.6</title>
+            <pubDate>Thu, 10 Sep 2026 14:31:56 +0800</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## 更新内容
+
+- 在“偏好设置 → 通用”中新增“登录时自动启动 SnapGo”开关。
+- 使用 macOS 系统登录项管理开机自启动，设置状态会与系统保持同步。
+- 当 macOS 需要用户在“登录项与扩展”中批准时，提供明确提示。
+- 补充简体中文和英文界面文案，并适配亮色、暗色外观。
+- 发布包继续为 Universal 2，支持 Apple Silicon 与 Intel Mac。
+
+## 验证
+
+- 37 项自动化测试全部通过。
+- 简体中文浅色与英文深色设置页渲染检查通过。
+- Universal 2 架构与应用签名验证通过。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/SnapGo-releases/releases/download/v1.1.6/SnapGo-1.1.6.zip" length="3278696" type="application/octet-stream" sparkle:edSignature="JA9U/yJy3YkBYL5KqR391YX0/MbapNF5495hKUgPTJTeU6faz0juZ6rP4czQWwJosw0A9P+PN06bj5n+Lh8EAA=="/>
+        </item>
+        <item>
             <title>1.1.4</title>
             <pubDate>Thu, 27 Aug 2026 19:39:10 +0800</pubDate>
             <sparkle:version>8</sparkle:version>
@@ -127,6 +149,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: BgKlPg073FOyN6o/nPKZOVgemfW5bBspsJku+J38eqZFvKID4aDh8Vp3VBe9O4q4nbOutgj46g8hPw/0PwsVCw==
-length: 8495
+edSignature: GvRlLKSeITTmvaDRftQy5lJbcqs3t6FahAuO8vgMKz1LJajzjl9aXkqRCW4/8ukzXcy5/CwiPSVSmdRZ9uXBAw==
+length: 9785
 -->
