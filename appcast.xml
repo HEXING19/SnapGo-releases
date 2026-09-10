@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>SnapGo</title>
         <item>
+            <title>1.1.7</title>
+            <pubDate>Thu, 10 Sep 2026 15:53:06 +0800</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## 更新内容
+
+- 修复大体积 GIF 在最终导出时可能导致 SnapGo 无响应或退出的问题。
+- GIF 现在逐帧编码并写入文件，避免系统全局调色板处理大型录制时崩溃。
+- 保留原有的录制帧磁盘存储、缩放、速度和循环播放行为。
+
+## 验证
+
+- 231 MB 的高复杂度录制输入成功导出为 319 MB GIF，314 帧均可解码。
+- 39 项自动化测试通过。
+- 发布包为 Universal 2，支持 Apple Silicon 与 Intel Mac。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/SnapGo-releases/releases/download/v1.1.7/SnapGo-1.1.7.zip" length="3286513" type="application/octet-stream" sparkle:edSignature="OFmZXeCKAFZOX2aCm7iw6wp8tOkbluKy480xcAMzntz9GzALr5jgEvgJLXpX4GzdnP7ZBOu2l7S6UtwCCdjDAg=="/>
+        </item>
+        <item>
             <title>1.1.6</title>
             <pubDate>Thu, 10 Sep 2026 14:31:56 +0800</pubDate>
             <sparkle:version>10</sparkle:version>
@@ -149,6 +169,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: GvRlLKSeITTmvaDRftQy5lJbcqs3t6FahAuO8vgMKz1LJajzjl9aXkqRCW4/8ukzXcy5/CwiPSVSmdRZ9uXBAw==
-length: 9785
+edSignature: TmQBA2cBtdCbzLDxwczVBy5FOKhQQNxrjuUAf52/G0Y8c2RSLZXIGTyN1CARa9jc4qNe9/A9TkOQ1cXtAqrbDw==
+length: 10959
 -->
