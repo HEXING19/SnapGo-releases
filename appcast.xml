@@ -6,6 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>SnapGo</title>
         <item>
+            <title>1.1.9</title>
+            <pubDate>Thu, 08 Oct 2026 09:38:19 +0800</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# SnapGo 1.1.9
+
+- 更新偏好设置的通用、外观、截图与输出、更新和关于页面，优化主题预览、中英文布局与控件交互。
+- 整理截图编辑和文字标注的交互逻辑，减少重复图像处理；仅在保存时压缩 PNG。
+- 改进截图、滚动截图和 GIF 会话的取消与窗口清理，避免旧任务影响新会话。
+- GIF 预览、复制与导出共用编码任务和缓存；快速切换配置时取消过期请求，关闭窗口时清理临时文件。
+- 滚动截图使用分段文档和按需渲染，减少长图处理中重复拼接和内存占用。
+- 图片与 GIF 导出改为原子替换，降低写入失败损坏已有文件的风险。
+
+验证：73 项自动化测试，3 项可选测试跳过，0 失败；发布包为 Universal 2，支持 Apple Silicon 与 Intel，要求 macOS 14 或更高版本。
+
+当前使用 ad-hoc 临时签名，未进行 Apple 公证。首次安装可能需要在“系统设置 → 隐私与安全性”中允许打开。真实滚轮连续采集、混合 DPI 多显示器和长时间录制仍需实机验收。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/SnapGo-releases/releases/download/v1.1.9/SnapGo-1.1.9.zip" length="3942678" type="application/octet-stream" sparkle:edSignature="KSyVpOoVRUP2c3phJJK+Rve3mLh4v5TUeNoUpzpdqieSmLV09LDQKB5SNHRnSY/PgF0/R436jgxX+fbPKN/LDA=="/>
+        </item>
+        <item>
             <title>1.1.8</title>
             <pubDate>Thu, 10 Sep 2026 16:45:11 +0800</pubDate>
             <sparkle:version>12</sparkle:version>
@@ -185,6 +206,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: zqSam23k20B4hlx9R0DWbjE74qZOOD+seGZBgq9+v9nAKtXHDMKnhQJO0MLWh0g0cXJVHoNo/8kZkkJJbM+mBA==
-length: 12256
+edSignature: oypGs3UoPIAgWVE/ORpNo2yss/05bFNg5k5TX8YEnNUxNm+XyKA0c9pnMVhFOpRbmruZ3p29jrtJNQglOwBqAw==
+length: 14044
 -->
