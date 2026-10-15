@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>SnapGo</title>
         <item>
+            <title>1.1.10</title>
+            <pubDate>Thu, 15 Oct 2026 15:55:39 +0800</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.1.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# SnapGo 1.1.10
+
+- 修复长截图范围明显缩小的问题：滚动采样中的重叠内容不再重复占用截图额度，小幅连续滚动也能继续采集长页面。
+- 最终长图上限从 32 Mi 像素提高到 128 Mi 像素，保留原始分辨率。
+- 保持后台拼接和受限尺寸预览，达到资源上限时保留已采集内容。
+
+验证：76 项自动化测试，2 项可选 GIF 测试跳过，0 失败；覆盖连续 200 次小幅滚动，以及 1024 × 33792 像素长图的完整像素一致性。
+
+Universal 2，支持 Apple Silicon 与 Intel，要求 macOS 14 或更高版本。当前使用 ad-hoc 临时签名，未进行 Apple 公证。首次安装可能需要在“系统设置 → 隐私与安全性”中允许打开。实际网页连续滚动仍需实机验收。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/SnapGo-releases/releases/download/v1.1.10/SnapGo-1.1.10.zip" length="3943131" type="application/octet-stream" sparkle:edSignature="RBP1DGZqX9xMBjxDbluxBel5bnbW7DM+RbB/QoJLGgsHZ00zn2NTwjo7aV4l804Q+G38roO+anVkWpfs7KC1Bw=="/>
+        </item>
+        <item>
             <title>1.1.9</title>
             <pubDate>Thu, 08 Oct 2026 09:38:19 +0800</pubDate>
             <sparkle:version>13</sparkle:version>
@@ -206,6 +224,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: oypGs3UoPIAgWVE/ORpNo2yss/05bFNg5k5TX8YEnNUxNm+XyKA0c9pnMVhFOpRbmruZ3p29jrtJNQglOwBqAw==
-length: 14044
+edSignature: 463C3f1NrldbA8I0Eovjo7vlcfYrCwod53H/Y/ye7cFoMfYFHWVD09QnH0/c45RoHp+9DX5yvK8QRAK6h8qnBQ==
+length: 15532
 -->
