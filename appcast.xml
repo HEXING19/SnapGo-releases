@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>SnapGo</title>
         <item>
+            <title>1.1.11</title>
+            <pubDate>Sun, 18 Oct 2026 14:12:15 +0800</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.1.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# SnapGo 1.1.11
+
+- 改进文字标注输入：普通 Return 换行，⌘Return 完成编辑，中文组合输入期间保留输入法操作。
+- 支持文字编辑中的全选、复制、剪切、粘贴、撤销与重做，调整颜色后保留输入焦点。
+- 优化文字框自动扩展、折行、光标对比度及快捷键提示，保留首尾空白和多行排版。
+- 修复矩形工具下已选标注的缩放与移动：拖动角点调整大小、拖动边框移动，并支持撤销与重做。
+
+验证：86 项自动化测试，4 项跳过，0 失败；Universal 2，支持 Apple Silicon 与 Intel，要求 macOS 14 或更高版本。
+
+当前使用 ad-hoc 临时签名，未进行 Apple 公证。首次安装可能需要在“系统设置 → 隐私与安全性”中允许打开。第三方输入法、复杂截图与屏幕底边长文本等场景仍需进一步实机验证。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/SnapGo-releases/releases/download/v1.1.11/SnapGo-1.1.11.zip" length="3955132" type="application/octet-stream" sparkle:edSignature="TcYEmvVmgIrDTQMgc6ow9xvr4Io5sUjPaNYdR9A2rXurVqk0KgMuCB02JiKBOPy7jQoRX+DiRlAkHXGu0+G5Bg=="></enclosure>
+        </item>
+        <item>
             <title>1.1.10</title>
             <pubDate>Thu, 15 Oct 2026 15:55:39 +0800</pubDate>
             <sparkle:version>14</sparkle:version>
@@ -224,6 +243,6 @@ Universal 2，支持 Apple Silicon 与 Intel，要求 macOS 14 或更高版本�
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 463C3f1NrldbA8I0Eovjo7vlcfYrCwod53H/Y/ye7cFoMfYFHWVD09QnH0/c45RoHp+9DX5yvK8QRAK6h8qnBQ==
-length: 15532
+edSignature: VtgxErofYMIvWyck7pv4CQxdiCs/xjrqYq6/5tpRUsRmSCybwzjaF8WYUbt2EkvRIONA1A/FrT7ktQQHd/EJCw==
+length: 17123
 -->
